@@ -1,0 +1,278 @@
+
+
+.logo img{
+    width: 277px;
+}
+
+/* menu */
+ 
+ }
+ .menu ul{
+   
+     
+ }
+ .menu ul li{
+     display: inline-block;
+ 
+     margin-left: -4px;
+     
+ }
+ 
+ 
+ 
+ .menu ul li a{
+    
+padding: 15px 32px;
+    
+text-decoration: none;
+    
+font-size: 25px;
+    
+font-weight: bold;
+    
+display: inline-block;
+    
+transition: .5s;
+    
+color: red;
+ }
+ .menu ul li:hover > a{
+    color: black;
+     background-color: #ddd;
+ }
+ 
+
+/* dropwdown -menu */
+
+.menu ul li{
+    position: relative;
+}
+
+.menu ul li ul{
+             position: absolute;
+             top: 100%;
+             left: 0;
+             width: 300px;
+             background-color: rgb(17, 173, 147);
+             transition: .5s;
+             border-top: 1px solid #ddd;
+             padding-left: 0px;
+             text-align: center;
+}
+.menu ul li ul li{
+    display: block;
+    margin: 0;
+}
+    
+
+.menu ul li ul li a{
+    display: block;
+    color: cyan;
+    border: none;
+
+    border-bottom: 1px solid #ddd;
+}
+.menu ul ul li:first-child a{
+    border-left: none;
+   
+}
+
+
+
+/* Hover part */
+
+.menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaley(0);
+    transform-origin: top center;
+    }
+    
+    .menu ul li:hover > ul{
+        opacity: 1;
+        visibility: visible;
+        transform: scaley(1);
+    }
+    
+.menu ul li ul li a:hover{
+   
+    background: rgb(18, 67, 82);
+}
+
+
+/* Drop Down - 3 */
+
+.menu ul li ul li{
+    
+    position: relative;
+}
+.menu ul li ul li ul {
+    
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 300px;
+    background-color: rgb(250, 46, 46);
+  
+    /* hover */
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
+
+/* bENNAR-PART */
+
+.bennar-text{
+    background-image: url(https://images.template.net/wp-content/uploads/2016/04/02111310/Youtube-Banner-Background-Template.jpg);
+    background-size: cover;
+    padding: 200px;
+}
+
+.bennar-text h1{
+    display: block;
+    color: #ddd;
+    background: rgb(80, 75, 75);
+    padding: 10px 0px;
+}
+
+.bennar-text a{
+    color: #FFF;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    line-height: 61px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 1s;
+}
+.bennar-text a:hover{
+    color: blue;
+    background-color: rgb(226, 48, 17);
+}
+
+/* About section */
+
+.aboute{
+    background-image: url(https://i.pinimg.com/originals/0b/a3/d6/0ba3d60362c7e6d256cfc1f37156bad9.jpg);
+    padding: 78px;
+    background-size: cover;
+    color: white;
+}
+
+.aboute h1{
+    font-size: 82px;
+    font-weight: bold;
+    text-shadow: 3px 2px red;
+}
+
+.aboute h2{
+    background-color: red;
+    width: 472px;
+    height: 5px;
+    margin: auto;
+    background-color:;
+}
+
+.aboute p{
+    line-height: 31px;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.un{
+    background-color: tomato;
+    width: 40px;
+}
+
+
+/* Service-section */
+
+.service-bg{
+    background-color: rgba(43, 31, 27, 0.596);
+}
+
+.smp {
+    margin-top: 40px;
+    text-align: center;
+    border: 3px solid #f6e9e9;
+    background-color: #ddd;
+    padding: 12px 0px;
+    border-radius: 15px 46px 15px 46px;
+    box-shadow: 6px -3px #c85a5a;
+    margin-bottom: 20px;
+
+}
+
+.smp i{
+    font-size: 55px;
+    color: tomato;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.smp i:hover{
+    color: black;
+}
+
+.ss{
+    padding: 46px 0px;
+  
+}
+
+.ss h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 6px 1px red;
+}
+
+/* FORM-Section */
+
+.form h3{
+    margin-top: 20px;
+}
+
+
+/* FOOOTER-ICON */
+
+
+.footer{
+    padding: 15px 0px;
+}
+
+.icone-bg{
+    background-color: rgb(59, 53, 53);
+}
+
+.text{
+
+color: white;
+
+margin-top: 20px;
+}
+
+
+.icon i{
+    font-size: 30px;
+}
+.icon ul{}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a{
+    color: white;
+    display: inline-block;
+    transition: 1s;
+    padding: 1px 12px;
+    margin-top: 20px;
+}
+.icon ul li a:hover{
+    color: tomato;
+
+ 
+}
